@@ -1,0 +1,50 @@
+@font-face{
+    font-family:"coffeesoda";
+    src:url("CoffeeSoda.ttf");
+}
+h1{
+    font-family: coffeesoda;
+}
+
+.add-button{
+    border: none;
+    border-radius: 10px;
+    padding-right: 15px;
+    padding-left: 15px;
+    background-color: powderblue;
+    size: 30px;
+    font-size: 20px;
+    font-family: coffeesoda;
+    cursor: pointer;
+}
+input{
+    padding-right: 20px;
+    font-size: 20px;
+    padding-left: 20px;
+}
+::placeholder{
+    font-size: 20px;
+    font-family: Courier, monospace;
+}
+div{
+    font-size: 20px;
+    font-family: Courier, monospace;
+}
+.remove-button{
+    border: none;
+    border-radius: 10px;
+    padding-right: 15px;
+    padding-left: 15px;
+    background-color: plum;
+    size: 30px;
+    font-size: 20px;
+    font-family: coffeesoda;
+    cursor: pointer;
+}
+body{
+    background-image: url(gradient.jpg);
+    background-repeat: none;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
